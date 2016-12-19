@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /play
+Disallow: /swf/
+Disallow: /forum/
+Disallow: /partners/ntt
+Disallow: /partners/openenglish
+Disallow: /class/
+Disallow: /rankings/
+Disallow: /login
+Disallow: /search
+Disallow: /index.php/
+Disallow: /embed

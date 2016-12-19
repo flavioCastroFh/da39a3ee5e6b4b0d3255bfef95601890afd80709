@@ -1,0 +1,1458 @@
+
+<!doctype html>
+<html id=ng-app ng-app=EnglishCentralApp ng-controller=EnglishCentralCtrl>
+<head>
+<meta charset=UTF-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge"><link href="/dist/A.vendor.css.pagespeed.cf.AY9xUmNvXx.css" media=screen rel=stylesheet type="text/css"><link href="https://cdns.englishcentral.com/css/ec3,_widgets,_contact-us.css+compiled,_global,_applets,_login.css+compiled,_global,_en.css+vendor,_ec-live,_ec-live.css+ec3.3,_common,_form,_common.css+ec3.3,_common,_form,_errors.css+compiled,_global,_components,_video-thumbnail.css+compiled,_default,_session.css+ec3,_leveltest,_leveltest.css+compiled,_global,_applets,_outage-messages.css+ec3,_legacy,_layout.css+ec3,_legacy,_teacher-registration-form.css+custom-theme,_jquery-ui-1.8.4.custom.css+ec3,_legacy,_academic.css+ec3,_legacy,_academic-pricing.css+ec3,_legacy,_left-navigation.css+registration.css.pagespeed.cc.KQ28VhDffL.css" media=screen rel=stylesheet type="text/css"/><link href="https://cdns.englishcentral.com/css/ec3,_legacy,_login-form.css+contactus.css+ec-ui.css+compiled,_global,_routes,_academic.css+compiled,_global,_applets,_registration.css.pagespeed.cc.8CMRYBGNz_.css" media=screen rel=stylesheet type="text/css"/><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgIEUFVADgcJXFRT"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script>
+<meta name=description content="Learn English with the Web's Best Videos">
+<meta name=keywords content="Online English Learning,  Learn English, English Videos">
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<meta name=google-site-verification content=zuSfSAt-vHtoPArVLCDYohHJfCDc0SEK1FxHYSi8e80><title>EnglishCentral Academic Use</title><link href="/favicon.ico" rel=icon>
+<script async type='text/javascript'>if(typeof fbq==='undefined'){!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','737270556359072');fbq('track',"PageView");}else{fbq('track',"PageView");}var _gaq=_gaq||[];_gaq.push(['_setDomainName','.englishcentral.com'],['_addIgnoredRef','englishcentral.com'],['_addIgnoredRef','babelcentral.com']);_gaq.push(['_setAccount','UA-9150214-1']);_gaq.push(['_setCustomVar',1,'ACCOUNT_ID','0',2],['_setCustomVar',2,'USER_TYPE','Anonymous',1],['_setCustomVar',5,'SUBSCRIBER_TYPE','NULL',1],['_setCustomVar',4,'PARTNER_ID','2',1]);_gaq.push(['_trackPageview']);</script> <link rel=prefetch href="https://cdna.englishcentral.com/crossdomain.xml"/>
+<link rel=dns-prefetch href="https://cdna.englishcentral.com/crossdomain.xml"/>
+<link rel=prefetch href="https://cdns.englishcentral.com/crossdomain.xml"/>
+<link rel=dns-prefetch href="https://cdns.englishcentral.com/crossdomain.xml"/>
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<script src="https://cdns.englishcentral.com/dist/polyfill.js.pagespeed.jm.s5c7RluIgu.js" type="text/javascript"></script>
+<script src="https://cdns.englishcentral.com/dist/vendor.js.pagespeed.jm.61hUO1eqHx.js" type="text/javascript"></script>
+<script src="https://cdns.englishcentral.com/dist/legacy-vendor.js.pagespeed.jm.kh7_6JZAcZ.js" type="text/javascript"></script>
+<script src="https://cdns.englishcentral.com/js/lib/jqui-1.8.23.js.pagespeed.jm.4LgFtr2zFC.js" type="text/javascript"></script>
+<!--[if IE 8]>
+    <div class="ie8-message text-center">
+        <h2>
+            EnglishCentral is not supported on your current browser(IE8).            <br/><br/>
+            Please upgrade to the latest version(Internet Explorer 10.0 or higher).        </h2>
+    </div>
+    <link type="text/css" rel="stylesheet" media="screen" href="https://cdns.englishcentral.com/css/ec3/ie8.css">
+    <script>
+        document.createElement('ng-include');
+        document.createElement('ng-pluralize');
+        document.createElement('ng-view');
+        document.createElement('ng:include');
+        document.createElement('ng:pluralize');
+        document.createElement('ng:view');
+    </script>
+    <![endif]-->
+<!--[if lt IE 9]>
+    <style type="text/css">
+        .container {
+            width: 1100px !important;
+        }
+    </style>
+    <script>
+        document.createElement('ng-include');
+        document.createElement('ng-pluralize');
+        document.createElement('ng-view');
+        document.createElement('ng:include');
+        document.createElement('ng:pluralize');
+        document.createElement('ng:view');
+    </script>
+    <![endif]-->
+<script type="text/javascript" src="https://cdns.englishcentral.com/js/adframe.js.pagespeed.jm.BQCCUD_g8r.js"></script>
+<script type='text/javascript' src='//www.googleadservices.com/pagead/conversion_async.js'></script>
+<link rel="canonical" href="https://www.englishcentral.com/academic?setLanguage=en"/></head> <body class="en profile13-1 profile19-1" ng-class="{'user': auth.hasIdentity, 'anon': !auth.hasIdentity}" ec-toggle-account-panel="" resize="">
+<ec-progress-app></ec-progress-app>
+<header>
+<div class="navbar navbar-default navbar-fixed-top" ec-bgiframe="" ng-controller="NavigationController as navigation">
+<div class=nav-wrap>
+<div class=container>
+<div class=navbar-header>
+<div class="mobile-controls hidden-md hidden-lg pull-right">
+<ul class="ec-navbar-controls nav navbar-nav navbar-right" ng-cloak="">
+<li class="ng-cloak pull-left" ng-if="!auth.hasIdentity && !hideLoginButton">
+<a id=sign-in-btn-mobile class="btn btn-ec btn-ec-gray sign-in btn-mobile-signin" href="/academic?setLanguage=en&PageSpeed=noscript#login" ng-click='openLoginModal()'>
+Sign-in</a>
+</li>
+</ul>
+</div>
+<a id=ec-logo ng-href="{{ auth.hasIdentity && navigation.isLandingRoute() ? '#browse-app' : '/videos#!/index' }}" ec-scroll-to="{{ navigation.isLandingRoute() ? 'browse-app' : 'my-english-videos' }}" ec-publisher="{{ navigation.isLandingRoute() ? 'NavigationController.Browse' : 'NavigationController.MyEnglish' }}" class="navbar-brand sprite sprite-ec-logo ">
+<span class=sr-only>EnglishCentral - Learn English With The Web's Best Videos</span>
+</a>
+<button class="navbar-toggle pull-left collapsed hamburger-nav" type=button ng-click="navigation.toggleMenu()">
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<nav id=ec-nav class="collapse navbar-collapse" ng-class="{ 'in': navigation.isToggleActive }">
+<ul class="nav navbar-nav ec-menu text-center ng-cloak" delegate-click="" selector=a ec-highlight-on-scroll="" ng-show=auth.hasIdentity>
+<li class=ng-cloak ec-spy-element=myenglish ng-class="{'active': navigation.isActive('myenglish') || navigation.isActive('myenglishv36')}" ng-click="navigation.setActive('myenglish')">
+<a class=nav-item ec-scroll-to=my-english-videos ng-href="{{ navigation.isMyenglishRoute() ? '#/my-english-videos' : '/myenglish#/my-english-videos' }}">
+My English </a>
+</li>
+<li ng-if=navigation.classes ng-class="{ 'dropdown': navigation.classes.length, 'active': navigation.isActive(navigation.myClassRoutes) }" ng-click="navigation.hasMultipleClasses()" dropdown="" on-toggle="toggled(open)" class=ng-cloak>
+<a class=nav-item ng-if="navigation.classes.length == 1" ng-href="/class/{{ navigation.classes[0].organizationID }}-{{ navigation.encodeOrganizationName(navigation.classes[0].organizationName) }}/{{ navigation.classes[0].shortURL }}">
+My Class</a>
+<a class=nav-item href="#" role=button dropdown-toggle="" ng-if="navigation.classes.length > 1">
+My Classes <span class=caret></span>
+</a>
+<ul class="dropdown-menu ng-cloak classes" role=menu ng-if=navigation.classes.length>
+<li role=presentation ng-repeat="class in navigation.classes">
+<a ng-href="/class/{{class.organizationID}}-{{class.organizationName}}/{{class.shortURL}}" role=menuitem ng-bind=class.name></a>
+</li>
+</ul>
+</li>
+<li ng-class="{'active': navigation.isActive(navigation.browseRoutes)}" ec-spy-element=browse-app ng-click="navigation.setActive('videos1')">
+<a id=browse-nav class="nav-item browse-nav-item" ng-href="{{ navigation.isLandingRoute() ? '' : '/videos#!/index' }}" ec-scroll-to=browse-app>Browse</a>
+</li>
+<li class="visible-xs visible-sm">
+<a class=nav-item href="/account">
+My Account </a>
+</li>
+<li class="visible-xs visible-sm">
+<a class=nav-item href="/pronunciation">
+Pronunciation </a>
+</li>
+<li class="visible-xs visible-sm">
+<a class=nav-item href="/vocabulary/filter/all">
+My Words </a>
+</li>
+<li class="visible-xs visible-sm">
+<a class=nav-item href="/academic/logout">
+Logout </a>
+</li>
+</ul>
+<ul class="nav navbar-nav ng-cloak ec-menu" delegate-click="" selector=a ec-highlight-on-scroll="" ng-if="!auth.hasIdentity">
+<li ng-class="{'active': navigation.isActive(navigation.browseRoutes)}" ec-spy-element=browse-app ng-if="!auth.hasIdentity" ng-click="navigation.setActive('videos1')">
+<a id=browse-nav class="nav-item browse-nav-item" ng-href="{{ navigation.isLandingRoute() ? '' : '/videos#!/index#browse-app' }}" data-toggle=collapse ec-scroll-to=browse-app data-target=.nav-collapse>
+Browse</a>
+</li>
+<li ng-class="{'active': navigation.isActive('testimonial')}" ng-if="!auth.hasIdentity" ec-spy-element=testimonial ng-click="navigation.setActive('testimonial')" class=ng-cloak>
+<a id=user-stories-nav class=nav-item ng-href="{{ navigation.isTestimonialRoute() ? '' : '/videos#!/index#testimonial' }}" data-toggle=collapse ec-scroll-to=testimonial data-target=.nav-collapse>
+User Stories</a>
+</li>
+</ul>
+<ul class="ec-navbar-controls nav navbar-nav navbar-right" ng-cloak>
+<li class=ng-cloak ng-if="!auth.hasIdentity && !hideLoginButton">
+<a id=sign-in-btn class="btn btn-ec btn-ec-gray sign-in btn-default-signin" href="/academic?setLanguage=en&PageSpeed=noscript#login" ng-click='openLoginModal()'>
+Sign-in</a>
+</li>
+<li ng-if=auth.hasIdentity class=user-control>
+<form class=navbar-form action="/search" method=get>
+<div class=input-group>
+<input type=text class=btn-search-input name=search placeholder="Search in English...">
+<span class=input-group-btn>
+<button class="btn btn-default btn-search">
+<span class="glyphicon glyphicon-search"></span>
+</button>
+</span>
+</div>
+</form>
+</li>
+<li ng-if=auth.hasIdentity class=account-info ng-controller="AccountPanelController as accountPanel" ec-focus=account-panel-toggle>
+<a popover-template="'account-panel-widget.html'" popover-class="account-panel " popover-trigger=focus popover-placement=bottom-left popover-animation=false id=account-panel-toggle tabindex=-1 class="btn site-control blur-focus">
+<span ng-if="!accountPanel.hasAvatar()" class="sprite sprite-avatar vertical-center blur-focus"></span>
+<img class="sprite sprite-avatar vertical-center blur-focus" ng-if="accountPanel.hasAvatar()" lazy-src="{{ auth.identity.avatarURL }}" alt="">
+<span class="glyphicon glyphicon-menu-down vertical-center blur-focus"></span>
+</a>
+</li>
+<li ng-if="(!navigation.isAdvertisingRoute()) || (navigation.isAdvertisingRoute() && auth.hasIdentity)" class=languages dropdown="" on-toggle="toggled(open)" is-open=status.isopen>
+<a id=select-language-nav href="" class="btn site-control" dropdown-toggle="">
+<span class="sprite sprite-language-icon vertical-center"></span>
+<span class="glyphicon glyphicon-menu-down vertical-center"></span>
+</a>
+<ul class=dropdown-menu role=menu>
+<ul class=sublang><li class=current>
+<a href="//www.englishcentral.com/academic?setLanguage=en&amp;PageSpeed=noscript">English</a>
+</li><li>
+<a href="//es.englishcentral.com/academic?setLanguage=es&amp;PageSpeed=noscript">Español</a>
+</li><li>
+<a href="//ja.englishcentral.com/academic?setLanguage=ja&amp;PageSpeed=noscript">日本語</a>
+</li><li>
+<a href="//ko.englishcentral.com/academic?setLanguage=ko&amp;PageSpeed=noscript">한국어</a>
+</li><li>
+<a href="//pt.englishcentral.com/academic?setLanguage=pt&amp;PageSpeed=noscript">Português</a>
+</li><li>
+<a href="//ru.englishcentral.com/academic?setLanguage=ru&amp;PageSpeed=noscript">Русский</a>
+</li><li>
+<a href="//tr.englishcentral.com/academic?setLanguage=tr&amp;PageSpeed=noscript">Türkçe</a>
+</li><li>
+<a href="//vi.englishcentral.com/academic?setLanguage=vi&amp;PageSpeed=noscript">Tiếng Việt</a>
+</li><li>
+<a href="//www.englishcentralchina.com/academic?setLanguage=zh&amp;PageSpeed=noscript">简体中文</a>
+</li></ul> </ul>
+</li>
+</ul> </nav>
+</div>
+</div>
+<div id=progress-ribbon ng-controller="ProgressRibbonController as ribbon" class=ng-cloak ng-if=auth.hasIdentity>
+<div class=container>
+<ul class="row-fluid list-inline ribbon-items" ec-bgiframe="">
+<li ec-ribbon-slide-toggle=xp class="col-xs-2 col-md-1">
+<div id=ribbon-app class="ribbon-item ribbon-item-border pull-left ribbon-item-xp">
+<span class="sprite-progress-ribbon sprite-progress-ribbon-xpcoin vertical-center"></span>
+<span class="vertical-center activity-points-xs" ng-bind=ribbon.experiencePoints.totalActivityPoints ng-if="ribbon.experiencePoints.totalActivityPoints <= 99"></span>
+<span class="vertical-center activity-points-sm" ng-bind=ribbon.experiencePoints.totalActivityPoints></span>
+<span ng-bind=slider.isCollapsed></span>
+</div>
+</li>
+<li class="col-md-5 hidden-xs">
+<div class="ribbon-item ribbon-item-nextsession" ng-if="ribbon.hasSession && ribbon.nextSession.skypeID && !ribbon.isCancelled" ng-click="ribbon.openSessionModal()">
+<span class="sprite-progress-ribbon sprite-progress-ribbon-schedule-icon vertical-center" ng-class="{'sprite-progress-ribbon-schedule-icon':!ribbon.nextSession.isMissed, 'sprite-progress-ribbon-schedule-missed': ribbon.nextSession.isMissed}"></span>
+<span class="vertical-center schedule" ng-bind=ribbon.nextSession.displayScheduleWithTimezone></span>
+</div>
+</li>
+<li class="col-md-6 hidden-xs hidden-sm">
+<div id=ribbon-item-phonemes-container>
+<div class="ribbon-item ribbon-item-phonemes ribbon-item-border" tooltip="Speak more videos to get free feedback." tooltip-placement=bottom tooltip-trigger=mouseenter tooltip-enable="!ribbon.hasPronunciationSummary" tooltip-class="ribbon-phoneme-tooltip text-uppercase" ng-class="{'disabled': !ribbon.hasPronunciationSummary }" ng-hide=ribbon.pronLoading>
+<div class=clear-block ng-if="!ribbon.hasPronunciationSummary"></div>
+<a href="/pronunciation" class="vertical-center pronpage-link">
+Pronunciation:</a>&nbsp;&nbsp;&nbsp;
+<ul class="list-inline ribbon-phonemes">
+<li ng-repeat="phoneme in ribbon.pronunciationProgress.miniPronPet" ec-pron-tile=phoneme class="ribbon-phoneme-prontile vertical-center">
+<a ng-href="{{phoneme.url}}" class=ribbon-phoneme-prontile></a></li>
+</ul>
+</div>
+</div>
+<div id=ribbon-item-wordsummary-container>
+<div class="ribbon-item ribbon-item-border ribbon-item-wordsummary pull-left" ng-class="{'disabled': !ribbon.hasWordSummary}" tooltip="Learn more words to generate your study list." tooltip-placement=bottom tooltip-trigger=mouseenter tooltip-enable="!ribbon.hasWordSummary" tooltip-class="ribbon-wordsummary-tooltip text-uppercase">
+<a class=ribbon-item-mywords ng-class="{'ec-inactive-link': !ribbon.hasWordSummary}" href="/vocabulary/filter/ready">My Words :</a>
+<a class=ribbon-item-mywords href="/vocabulary/filter/ready" ng-class="{'ec-inactive-link': !ribbon.hasWordSummary}">
+<i class="fa fa-list vertical-center"></i>
+<span class=vertical-center ng-bind="ribbon.wordProgress.all || 0"></span>
+</a>
+<a class=ribbon-item-mywords href="/vocabulary/filter/learned" ng-class="{'ec-inactive-link': !ribbon.hasWordSummary || !ribbon.wordProgress.quizzed}">
+<i class="fa fa-ellipsis-h vertical-center"></i>
+<span class=vertical-center ng-bind="ribbon.wordProgress.quizzed || 0"></span>
+</a>
+<a class=ribbon-item-mywords href="/vocabulary/filter/mastered" ng-class="{'ec-inactive-link': !ribbon.hasWordSummary || !ribbon.wordProgress.mastered}">
+<i class="fa fa-ellipsis-v vertical-center"></i>
+<span class=vertical-center ng-bind="ribbon.wordProgress.mastered || 0"></span>
+</a>
+</div>
+</div>
+</li>
+</ul>
+</div> </div>
+<div id=ribbon-slider ec-ribbon-slide="" collapse="slider.isCollapsed()" ng-if=auth.hasIdentity class=ng-cloak>
+<div class=container ng-controller="ExpSliderController as slider">
+<ul class="slider-items list-inline row-fluid">
+<li class="slider-exp-border pull-left">
+<span class="sprite sprite-xpcoin-big pull-left"></span>
+<div class=slider-exp-label>Total</div>
+<span ng-bind=slider.experiencePoints.totalActivityPoints></span>
+</li>
+<li class="slider-exp-border pull-left">
+<div class=slider-exp-label>Last 7 days</div>
+<div ng-bind=slider.experiencePoints.weeklyActivityPoints></div>
+</li>
+<li class="ribbon-item-nextsession pull-left" ng-show=slider.isSessionEnabled ec-scroll-to=leveltest-app>
+<a ec-go-live-button-toggle="" ng-show="!ecGoLiveButtonToggle.isLoading && ecGoLiveButtonToggle.showState" ng-click="slider.openGoLive()">
+<span ng-if="!ecGoLiveButtonToggle.hasGoLive">
+Book your first <br/><span class=emphasis>Lesson</span> </span>
+<span ng-if=ecGoLiveButtonToggle.hasGoLive>
+Book your next <br/><span class=emphasis>Lesson</span> </span>
+<span class="glyphicon glyphicon-play"></span>
+</a>
+</li>
+</ul>
+</div>
+</div> </div>
+</header>
+<div id=fixed-header-offset class=ng-cloak></div>
+<script type="text/ng-template" id=login.html>
+        <div class="modal-header">
+            <button id="login-modal-close-btn" type="button" class="close" aria-hidden="true"
+                    ng-click="close(); trackEvent('Login.Close','Close');">×
+            </button>
+            <h3 class="modal-title">
+                Login to EnglishCentral            </h3>
+        </div>
+        <div class="modal-body">
+                        
+<div id="login-form-modal"
+     class="ng-cloak"
+     ng-controller="LoginController"
+     ng-init="loginForm.classID='';loginForm.accountRegistrationTagID='';"
+     ng-class="{'googlepluslogin-enabled': isGooglePlusLoginEnabled}">
+    <div class="text-center" ng-show="isLoading()">
+        <span class="fa fa-spinner fa-pulse fa-5x"></span>
+    </div>
+
+    <iframe frameborder="0" marginheight="0" marginwidth="0"
+            src="https://www.englishcentral.com/auth/loginv3"
+            type="text/html" id="iframe-login"
+            style="display:none;"
+            ec-iframe-ns="IframeLogin"
+            ec-iframe-onload="onIframeLoad()"
+        ></iframe>
+
+    <form
+        id="login-form"
+        name="login-form"
+        class="form-horizontal"
+        ng-hide="isLoading()"
+        novalidate=""
+        angular-validator
+        angular-validator-submit="login()">
+        <div class="alert bg-danger" ng-show="hasError()">
+            <span ng-show="emailError">
+                Sorry, we could not match that email and password.            </span>
+            <span ng-show="fbError">
+                Your facebook account is not yet registered.            </span>
+
+            <span ng-show="googleError">
+                Unable to login your Google account.            </span>
+
+            <span ng-show="validateOrganizationError">
+                Account not belongs to organization            </span>
+        </div>
+
+                <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">Login with</label>
+            <div class="col-sm-8 login-options">
+                                    <label class="radio-inline">
+                        <input id="facebook-login-type" type="radio" ng-checked="isFacebookMode()" ng-click="setFacebookMode()" name="type" value="0">
+                        <span class="fa fa-facebook-official"></span>
+                        <span>Facebook</span>
+                    </label>
+                                                    <label class="radio-inline google-option">
+                        <input id="facebook-login-type" type="radio" ng-checked="isGoogleMode()" ng-click="setGoogleMode()" name="type" value="2">
+                        <img src="https://cdns.englishcentral.com/images/googleplus-small.png" />
+                        <span>Google</span>
+                    </label>
+                                <label class="radio-inline">
+                    <input id="email-login-type" type="radio" ng-checked="isEmailMode()" ng-click="setEmailMode()" name="type" value="1">
+                    <span class="fa fa-envelope-o"></span>
+                    <span>Email</span>
+                </label>
+            </div>
+        </div>
+        
+        <div class="form-group" ng-show="isEmailMode()">
+            <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+            <div class="col-sm-8">
+                <input
+                    type="email"
+                    class="form-control"
+                    tabindex="11"
+                    id="log_email" name="log_email"
+                    required=""
+                    ng-model="loginForm.email"
+                    placeholder="Email"
+                    required-message="'Please enter your email'"
+                    invalid-message="'You have entered an invalid email'"
+                    ng-change="trackEvent('Login.Email.EmailAddress','EmailAddress')"
+                    validate-on="submit">
+            </div>
+        </div>
+        <div class="form-group" ng-show="isEmailMode()">
+            <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+            <div class="col-sm-8">
+                <input
+                    tabindex="12"
+                    type="password"
+                    class="form-control" maxlength="15" value="" id="log_password"
+                    name="log_password" required=""
+                    ng-model="loginForm.password"
+                    placeholder="Password"
+                    ec-autofill=""
+                    title="Password"
+                    ng-change="trackEvent('Login.Email.Password','Password')"
+                    required-message="'Please enter your password'"
+                    invalid-message="''"
+                    validate-on="submit" >
+            </div>
+        </div>
+        <div class="form-group">
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-9">
+                <button id="email-login-btn" class="btn btn-ec col-sm-5 btn-lg" type="submit" ng-show="isEmailMode()">Login</button>
+                <button id="facebook-login-btn"  class="btn btn-ec col-sm-5 btn-lg" ng-show="isFacebookMode()" ng-click="login()">Login</button>
+                <button id="google-login-btn"  class="btn btn-ec col-sm-5 btn-lg" ng-show="isGoogleMode()" ng-click="login()">Login</button>
+            </div>
+        </div>
+        <div class="form-group" ng-show="isEmailMode()">
+            <div class="col-sm-offset-3 col-sm-9">
+                <div>
+                    <a href="/login/forgotpassword" target="_top" class="ec-link"
+                       ng-click="trackEvent('Login.ForgotPassword', 'ForgotPassword')">
+                        Forgot your password?                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="form-group" ng-show="isFacebookMode() || isGoogleMode()">
+            <div class="col-sm-12">
+                <p class="text-center">
+                                        <br/>
+                    Facebook and Google use pop-ups for logging in. Please enable pop-ups in your browser.                </p>
+            </div>
+        </div>
+    </form>
+</div>        </div>
+    </script>
+<script type="text/ng-template" id=terms.html>
+        <div class="modal-header">
+            <button type="button" class="close" aria-hidden="true"
+                    ng-click="cancel();">×
+            </button>
+            <h3 class="modal-title">Terms of Use</h3>
+        </div>
+        <div class="modal-body">
+            <p>
+    Thank you for using EnglishCentral (“<strong>EnglishCentral</strong>”). These are the terms of use (“Terms”), which apply to your use of the EnglishCentral website (“Site”) and the services available to you on the Site (“Services”). For information on how information is gathered and used at the Site please go to our privacy policy found at <a class="ec-link" href="/privacy">http://www.englishcentral.com/privacy</a>. The Privacy Policy is incorporated into these Terms by reference.  If you do not agree to these Terms, you must discontinue using the Site and terminate your registration with us. The Site is owned by EnglishCentral, Inc.</p>
+
+<p>
+    <em>Registration:</em> When you register with EnglishCentral, you will be asked to provide us with personally identifiable information that we may request, all of which will become part of your profile and which you can add to or change from time to time. You will also be asked to select a screen name and password which will serve to identify you as a registered user each time you visit the Site and allow you to access your account. You may not (i) select or use a screen name of another person with intent to impersonate that person, (ii) use a screen name in which another person has rights without authorization from that person, or (iii) use a screen name that EnglishCentral, at its sole discretion, deems offensive. You agree to provide (i) true, accurate, current and complete information about yourself as prompted by the registration form, and (ii) maintain and properly update your profile to keep it true, accurate, current and complete. If you provide information that is untrue, inaccurate, not current or incomplete, or EnglishCentral has reasonable grounds to suspect that you have, we have the right to suspend or terminate your registration status and deny you future use of the Site and the Services (or any portion thereof).</p>
+
+<p>
+    You must be at least 14 years old to register and to use the Services. The Site and Services are not intended for children under the age of 14.</p>
+
+<p>
+    <em>Use of the Site:</em> This Site and the Services offered are intended for your personal, noncommercial use in accordance with these terms. You agree that you will not (i) copy, display or distribute any part of the Site, in any medium, for any commercial purposes, or (ii) alter or modify any part of the Site other than as may be reasonably necessary to use the Site for its intended purpose. You further agree that you will not use any automated devices, such as spiders, robots or data mining techniques to catalog, download, store or otherwise reproduce, store or distribute content available on the Site, or to manipulate the Site or the Services, or otherwise exceed the limited access granted to you by EnglishCentral.</p>
+
+<p>
+    <em>Personal Profile:</em> By creating a profile and accessing content on the Site that information and your activity on the Site is visible to everyone who visits the Site, registered users and visitors alike, unless you choose to make it invisible. You can enable or disable the invisible mode at any time. However, enabling invisible mode will not affect information that had been previously posted. Any previously posted information may still be visible to other users. EnglishCentral makes every effort to ensure that your profile and posts are displayed based on your privacy preference. However, mistakes can happen. If you believe that your profile or activities are being displayed in a manner that you did not authorize, you can notify us of the error by using the &ldquo;Contact Us&rdquo; button on any page of the Site and we will correct the problem promptly. However, you agree that your sole remedy against us if we were to make such a mistake is to require us to change the privacy settings to those that you originally requested.</p>
+
+<p>
+    <em>User Submissions:</em> Some of the content on EnglishCentral is submitted by our users. We encourage you to take advantage of the many opportunities to interact with EnglishCentral registered users by posting and reading content and participating in online discussions. You acknowledge that by using the Site, you may be exposed to content that you find objectionable, indecent or offensive or which is inaccurate, misleading or incomplete. We are not responsible for the accuracy, completeness or usefulness of any content, nor do we endorse such content. We do not verify the identity of people using our Site. You use the Site and the content at your own risk.</p>
+
+<p>
+    <em>Usage Policies:</em> All content that you post to EnglishCentral, including videos and other content that you upload, must comply with these Terms. You take sole responsibility for all content that you post on the Site and the consequences of posting that content. You are responsible for obtaining all necessary rights to upload, post and distribute the content. You agree that you will not upload, email, transmit, or otherwise make available any content that:</p>
+<ul>
+    <li>is threatening, defamatory, abusive, obscene, pornographic, or any material that would give rise to any civil or criminal liability under applicable law; </li>
+    <li>could infringe any copyright, trademark, publicity or privacy right or any other intellectual property right of any person or entity unless you have first received permission from the owner of those rights to use the materials; </li>
+    <li>contains slurs, hate speech or which attack an individual or group on the basis of race, color, religion, national origin, or sexual preferences; </li>
+    <li>constitutes spam;</li>
+    <li>is a solicitation or advertisement for any commercial product or activity; </li>
+    <li>constitutes behavior that does not support a safe and comfortable environment for all users; or</li>
+    <li>contains any materials that encourage inappropriate or unlawful conduct. </li>
+</ul>
+
+<p>
+    We may, at our sole discretion, immediately terminate your access to the Site should your conduct fail to conform with these Terms.</p>
+
+<p>
+    You understand that you are personally responsible for your behavior while on the Site and agree to indemnify and hold EnglishCentral, and its affiliates, business partners, and their respective officers, directors, employees, and agents, harmless from and against any loss, damage, liability, cost, or expense of any kind (including attorneys' fees) that we may incur in connection with a third party claim or otherwise, in relation to your use of the Services or access to or use of the Site, or your violation of either these Terms, applicable law, or the rights of any third party.</p>
+
+<p>
+    We have the right to view and monitor any content posted to this Site and we reserve the right, but not the obligation, to monitor, edit or remove any content at any time and without notice if we believe that the content violates these Terms, removal is necessary to protect the rights, property or personal safety of EnglishCentral, its users and the public, if required to do so by law, or if we believe in our sole discretion that doing so will improve our Site and the experience of our users.</p>
+
+<p>
+    If you believe that any postings on the Site violate these Terms, please let us know by clicking on the &ldquo;Contact Us&rdquo; link.</p>
+
+<p>
+    <em>Use of your Information:</em>  By using the service, recording your voice, and submitting content to the Site, you grant to EnglishCentral, and its successors in business, a perpetual, worldwide, royalty-free, and non-exclusive license to reproduce, distribute, modify, edit, display, adapt, create derivative works from your recordings or the content, for any commercial purposes, and in any medium now existing or hereinafter developed, without your prior approval or the payment of any compensation.</p>
+
+<p>
+    <em>EnglishCentral Intellectual Property:</em> The Site and, with the exception of material posted by registered users and third party content, all material published on the Site, including, but not limited to text, photographs, video, text, graphics, music, audio, sounds, messages, comments, ratings, and other materials is owned by EnglishCentral or its licensors and is protected by copyright, patents, trademarks, trade secrets and/or other proprietary rights, including under the United States copyright laws. EnglishCentral owns a copyright in the selection, coordination, arrangement and enhancement of such content and a copyright in the Site. All trademarks appearing on this Site (&ldquo;Marks&rdquo;) are trademarks of their respective owners, including EnglishCentral and its partners. Users are prohibited from using any Marks without the written permission of EnglishCentral or such third party that may own the Marks.</p>
+
+<p>
+    All content on the Site is provided AS IS for your information and personal use only. You may not copy, publish, transmit, distribute, perform, sell, create derivative works of, or in any way exploit, any of the content, in whole or in part, without EnglishCentral's prior written consent. You may download content for your personal, non-commercial use only as provided in these Terms, provided that you keep intact all copyright and other proprietary notices. Copying or storing of content for other than personal use is expressly prohibited without prior permission from us or the copyright holder identified in the copyright notice contained in the content.</p>
+
+<p>
+    <em>Emails from Us:</em> By registering for EnglishCentral, you will receive online communications from EnglishCentral. To unsubscribe from any EnglishCentral email list, simply click on the &ldquo;Unsubscribe&rdquo; link at the bottom of the email and your name will be removed from our emailing list.</p>
+
+<p>
+    <em>Disclaimer of Warranties:</em>
+    YOU UNDERSTAND THAT YOUR USE OF THE SITE AND SERVICES (INCLUDING ANY DOWNLOADS OR ANY LOSS OF DATA OR OTHER DAMAGE TO YOUR COMPUTER SYSTEM YOU EXPERIENCE FROM USING THE SITE AND SERVICES) IS AT YOUR SOLE RISK. YOU UNDERSTAND THAT THE SITE AND SERVICES AND ALL INFORMATION, PRODUCTS AND OTHER CONTENT (INCLUDING THIRD PARTY INFORMATION, PRODUCTS AND CONTENT INCLUDED IN OR ACCESSIBLE FROM THE SITE OR SERVICES, ARE PROVIDED ON AN &ldquo;AS IS&rdquo; &ldquo;WHERE-IS&rdquo; AND &ldquo;WHERE AVAILABLE&rdquo; BASIS, AND ARE SUBJECT TO CHANGE AT ANY TIME WITHOUT NOTICE TO YOU. YOU ACKNOWLEDGE THAT ENGLISHCENTRAL MAKES NO WARRANTY THAT THE SITE OR SERVICES WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE. YOU UNDERSTAND THAT ENGLISHCENTRAL DOES NOT WARRANT THAT THE RESULTS OBTAINED FROM YOUR USE OF THE SITE OR SERVICES WILL MEET YOUR EXPECTATIONS. NO WARRANTY OF ANY KIND, WHETHER ORAL OR WRITTEN, CAN MODIFY THE TERMS OF THE DISCLAIMER SET FORTH IN THIS DOCUMENT.</p>
+
+<p>
+    YOUR USE AND BROWSING OF THE SITE IS AT YOUR OWN RISK. IF YOU ARE DISSATISFIED WITH ANY OF THE MATERIALS CONTAINED IN THE SITE OR SERVICES, OR WITH ANY OF THESE TERMS, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE ACCESSING AND USING THE SITE AND SERVICES.</p>
+
+<p>
+    TO THE FULLEST EXTENT PERMITTED BY LAW, ENGLISHCENTRAL DISCLAIMS ALL REPRESENTATIONS, WARRANTIES, AND CONDITIONS OF ANY KIND (EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS) AS TO THE SITE AND SERVICES AND ALL INFORMATION, PRODUCTS, AND OTHER CONTENT (INCLUDING THIRD PARTY INFORMATION, PRODUCTS, AND CONTENT) INCLUDED IN OR ACCESSIBLE FROM THE SITE AND SERVICES.</p>
+
+<p>
+    ALL CONTENT, PRODUCTS AND THIRD PARTY SERVICES ON THE SITE, OR OBTAINED FROM A WEBSITE TO WHICH THE SITE IS LINKED ARE PROVIDED TO YOU &ldquo;AS IS&rdquo; WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, SECURITY OR ACCURACY.</p>
+
+<p>
+    ENGLISHCENTRAL DOES NOT ENDORSE AND IS NOT RESPONSIBLE FOR THE ACCURACY OR RELIABILITY OF ANY OPINION, ADVICE OR STATEMENT MADE THROUGH USERS OF THE SITE, ANY CONTENT PROVIDED ON THE SITE AND ANY LINKED SITES OR THE CAPABILITIES OR RELIABILITY OF ANY PRODUCT OR SERVICE OBTAINED FROM THE SITE OR A LINKED SITE.</p>
+
+<p>
+    OTHER THAN AS REQUIRED BY LAW, UNDER NO CIRCUMSTANCE WILL ENGLISHCENTRAL BE LIABLE FOR ANY LOSS OR DAMAGE CAUSED BY YOUR RELIANCE ON INFORMATION OBTAINED THROUGH THE SITE OR A LINKED SITE, OR YOUR RELIANCE ON ANY PRODUCT OR SERVICE OBTAINED FROM THE SITE OR A LINKED SITE. IT IS YOUR RESPONSIBILITY TO EVALUATE THE ACCURACY, COMPLETENESS OR USEFULNESS OF ANY OPINION, ADVICE OR OTHER CONTENT AVAILABLE THROUGH THE SITE OR OBTAINED FROM A LINKED SITE.</p>
+
+<p>
+    <em>Liability Limitation:</em> TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL ENGLISHCENTRAL OR ITS AFFILIATES BE LIABLE TO YOU (OR ANY THIRD PARTY MAKING CLAIMS THROUGH YOU) FOR ANY DAMAGES WHATSOEVER, INCLUDING BUT NOT LIMITED TO ANY DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL, PUNITIVE OR INCIDENTAL DAMAGES, OR DAMAGES FOR LOSS OF USE, PROFITS, DATA, OR OTHER INTANGIBLES, OR THE COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, UNAUTHORIZED ACCESS TO AND TAMPERING WITH YOUR PERSONAL INFORMATION OR TRANSMISSIONS, ARISING OUT OF OR RELATED TO THE USE, INABILITY TO USE, UNAUTHORIZED USE, PERFORMANCE, OR NON-PERFORMANCE OF THE SITE OR THE SERVICES, EVEN IF ENGLISHCENTRAL HAS BEEN ADVISED PREVIOUSLY OF THE POSSIBILITY OF SUCH DAMAGES AND WHETHER SUCH DAMAGES ARISE IN CONTRACT, NEGLIGENCE, TORT, UNDER STATUTE, IN EQUITY, AT LAW, OR OTHERWISE.</p>
+
+<p>
+    UNLESS LIMITED OR MODIFIED BY APPLICABLE LAW, THE FOREGOING DISCLAIMERS, WAIVERS AND LIMITATIONS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED, EVEN IF ANY REMEDY FAILS ITS ESSENTIAL PURPOSE. ENGLISHCENTRAL'S LICENSORS AND CONTRACTORS ARE INTENDED THIRD-PARTY BENEFICIARIES OF THESE DISCLAIMERS.</p>
+
+<p>
+    If any part of these warranty disclaimers or limitations of liability is found to be invalid or unenforceable for any reason, then ENGLISHCENTRAL'S aggregate liability for all claims under such circumstances for liabilities shall not exceed fifty dollars ($50).</p>
+
+<p>
+    <em>Termination:</em> We can suspend or terminate you as a registered user and your access to the Site or the Services, in whole or in part, at any time, immediately and without notice if, at EnglishCentral's sole discretion, you fail to comply with any of the Terms.</p>
+
+
+<h2>Digital Millennium Copyright Act (&ldquo;DMCA&rdquo;) Notice: </h2>
+
+<p>
+    EnglishCentral has registered an agent with the United States Copyright Office in accordance with the terms of the United States Digital Millennium Copyright Act, 17 U.S.C. 512(c)(3) (the &ldquo;Act&rdquo;) and avails itself of the protections under the Act. We reserve the right to remove any Content on the Site which allegedly infringes another person's copyright. We are under no obligation to, and do not, scan content posted for any violations of third party rights; however, we respect the copyright interests of others and it is our policy not to permit materials known by us to infringe another party's copyright to remain on the Site or the Service. EnglishCentral will terminate a registered user and a registered user’s access to the Site or the Service if, under appropriate circumstances, the registered user is determined to be a repeat infringer.</p>
+
+<p>
+    All DMCA notices should be sent to our designated copyright agent as follows:</p>
+<blockquote>
+    EnglishCentral, Inc.<br/>    ATTN: Legal Dept—Copyright Notice<br/>    5 Water St.<br/>Arlington, MA 02476<br/>    <a href='mailto:copyright-notice@EnglishCentral.com'>copyright-notice@EnglishCentral.com</a><br/></blockquote>
+
+<p>
+    <em>General:</em> These Terms are the entire agreement between you and EnglishCentral. They supersede any and all prior or contemporaneous agreements between you and EnglishCentral relating to your use of the Site or the Services. If any part of these Terms is determined to be invalid or unenforceable, it will not impact any other provision of these Terms, all of which will remain in full force and effect. The failure of EnglishCentral to partially or fully exercise any rights or the waiver of EnglishCentral of any breach of these Terms by you, shall not prevent a subsequent exercise of such right by EnglishCentral or be deemed a waiver by EnglishCentral of any subsequent breach by you of the same or any other term of these Terms. The rights and remedies of EnglishCentral under these Terms and any other applicable agreement between you and EnglishCentral shall be cumulative, and the exercise of any such right or remedy shall not limit EnglishCentral's right to exercise any other right or remedy. These Terms are governed by, and will be interpreted in accordance with, the laws of the State of Massachusetts, without regard to any choice of law provisions. You agree that, with the exception of injunctive relief sought by EnglishCentral for any violation of EnglishCentral's proprietary or other rights, any and all disputes relating to these Terms, your use of the Site or the Services shall be resolved by arbitration in accordance with the then-current rules of the American Arbitration Association (the &ldquo;AAA&rdquo;) before an independent arbitrator designated by the AAA. The location of arbitration shall be Boston, Massachusetts, USA.</p>
+
+<p>
+    <em>Modification of Terms:</em> We may change the Terms from time to time by updating this posting and changing the Effective Date referenced below. Please visit the Terms area each time you visit the Site to keep up to date with the current terms regarding your use of the Site. Your continued use of the Site constitutes an affirmative acknowledgment by you of the Terms modifications and your agreement to abide and be bound by the Terms as modified.</p>
+
+<p><strong> Effective Date: December 15, 2010 </strong></p>        </div>
+    </script>
+<script type="text/ng-template" id=leveltestSchedulerModal.html>
+        <div class="modal-header">
+            <button type="button" class="close" aria-hidden="true" ng-click="levelTestModal.close();">×</button>
+            <h4 class="modal-title">
+                                                            Schedule Your FREE Lesson                                                </h4>
+        </div>
+        <div class="modal-body">
+            <div ec-session-applet=""
+                 redirect-to=""
+                 close-on-schedule=""
+                 data-mode="modal"
+                 data-type="LT"></div>
+        </div>
+    </script>
+<script type="text/ng-template" id=cancelSessionModal.html>
+        <div class="modal-header">
+            <div class="media">
+                <div class="media-left media-middle">
+                    <span class="sprite-progress-ribbon sprite-progress-ribbon-schedule-icon vertical-center"></span>
+                    <div class="title header-container pull-right">
+                        Are you sure you want to cancel the following session?                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-body text-center">
+            <div class="row">
+                <div class="col-md-offset-1 error-message" ng-show="cancelSessionModal.isErrorCannotCancelPast()">
+                    Sorry, you can't cancel your session 30 minutes before the actual schedule.                </div>
+                <div class="col-md-offset-1">
+                    <div ng-if="cancelSessionModal.params.dialogGoLive.dialog.title">Title:&nbsp;<span ng-bind="cancelSessionModal.params.dialogGoLive.dialog.title"></span></div>
+                    <div>Date:&nbsp;<span ng-bind="cancelSessionModal.params.displaySchedule"></span></div>
+                    <div ng-if="cancelSessionModal.params.tutor.displayName ">Teacher:&nbsp;<span ng-bind="cancelSessionModal.params.tutor.displayName"></span></div>
+                    <div ng-if="cancelSessionModal.params.skypeID">
+                        Skype Name:&nbsp;<span ng-bind="cancelSessionModal.params.skypeID"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="cancelSessionModal.cancelInProgress" class="modal-footer">
+            <h4>Loading...</h4>
+        </div>
+        <div ng-show="!cancelSessionModal.cancelInProgress" class="modal-footer">
+            <button type="button"
+                    ng-show="!cancelSessionModal.hasError()"
+                    class="btn btn-grey"
+                    aria-hidden="true"
+                    ng-click="cancelSessionModal.cancel(cancelSessionModal.params);">Yes</button>
+
+            <button type="button"
+                    ng-show="!cancelSessionModal.hasError()"
+                    class="btn btn-ec" aria-hidden="true"
+                    ng-click="cancelSessionModal.close();">No</button>
+
+            <button type="button"
+                    ng-show="cancelSessionModal.hasError()"
+                    class="btn btn-ec" aria-hidden="true"
+                    ng-click="cancelSessionModal.close();">Close</button>
+        </div>
+    </script>
+<script type="text/ng-template" id=contactus.html>
+    <div class="modal-header">
+        <button type="button" class="close" aria-hidden="true" ng-click="close();">×</button>
+        <h3 class="modal-title">Contact Us</h3>
+    </div>
+    <div class="modal-body">
+        <form
+    autofill="off" autocomplete="off"
+    name="contactForm"
+    id="contact-form"
+    class="form-horizontal"
+    novalidate
+    angular-validator
+    angular-validator-submit="submit()"
+    >
+
+    <div class="text-center" ng-show="state.sending">
+        <span class="fa fa-spinner fa-pulse fa-5x"></span>
+        <h4>Sending...</h4>
+    </div>
+
+    <div ng-show="!state.sent">
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Name*</label>
+            <div class="col-sm-9">
+                <input tabindex="1"
+                       type="text"
+                       title="Name"
+                       placeholder="Name"
+                       id="contact_name"
+                       name="contact_name"
+                       class=" form-control"
+                       ng-model="contact.name"
+                       required-message="'Please enter your name'"
+                       validate-on="blur"
+                       value=""
+                       required="">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Email*</label>
+            <div class="col-sm-9">
+                <input tabindex="1"
+                       type="text"
+                       title="Email"
+                       placeholder="Email"
+                       id="contact_email"
+                       name="contact_email"
+                       class=" form-control"
+                       ng-model="contact.email"
+                       required-message="'Please enter your email'"
+                       validate-on="blur"
+                       value=""
+                       required="">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Phone*</label>
+            <div class="col-sm-9">
+                <input tabindex="1"
+                       type="text"
+                       title="Phone"
+                       placeholder="Phone"
+                       id="contact_phone"
+                       name="contact_phone"
+                       class=" form-control"
+                       ng-model="contact.phone"
+                       required-message="'Please enter your phone'"
+                       validate-on="blur"
+                       value=""
+                       required="">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Country*</label>
+            <div class="col-sm-9">
+                <select
+                    name="country"
+                    class="select form-control"
+                    ng-model="contact.countrySelected"
+                    ng-options="item as item.label for item in countries"
+                    required-message="'Please choose a country'"
+                    validate-on="blur"
+                    required
+                    >
+                    <option value="">Select Country</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Message*</label>
+            <div class="col-sm-9">
+                <textarea tabindex="1"
+                          title="Message"
+                          placeholder="Message"
+                          id="contact_message"
+                          name="contact_message"
+                          class="form-control"
+                          ng-model="contact.message"
+                          required-message="'Please enter your message'"
+                          validate-on="blur"
+                          value=""
+                          required=""></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-5">
+                <button class="btn btn-ec" type="submit">Send</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div ng-show="state.sent && !state.sending">
+        <p>
+            Message Sent! <br/>
+            Thank you for contacting us. Your message is very important to us, we will return your request as soon as we can.        </p>
+        <div class="text-center">
+            <button type="button" class="btn btn-ec btn-lg" ng-click="cancel();">Close</button>
+        </div>
+    </div>
+</form>
+
+    </div>
+</script>
+<script type="text/ng-template" id=leveltest-intro-modal.html>
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="close()">x</button>
+        <h3 class="modal-title">Level Test introduction video</h3>
+    </div>
+    <div class="modal-body">
+        <div>
+            <div
+                ec-video="leveltest-intro"
+                data-video-auto-play="true"
+                data-video-file="https://cdna.englishcentral.com/promo/demo/leveltest/leveltest-en-20160920023706.mp4"
+                data-no-overlay="true"
+                data-video-width="{{video.width}}"
+                data-on-play=""
+                data-on-pause=""
+                data-on-ready=""
+                data-on-complete="close()"
+                data-on-volume="">
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id=ec-intro-modal.html>
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="close()">x</button>
+        <h3 class="modal-title">EnglishCentral Introduction video</h3>
+    </div>
+    <div class="modal-body">
+        <div>
+            <div
+                ec-video="ec-intro"
+                data-video-auto-play="true"
+                data-video-file="https://cdna.englishcentral.com/promo/demo/intro/intro-en-20150526.mp4"
+                data-video-width="420"
+                data-video-height="326"
+                data-no-overlay="true"
+                data-on-play=""
+                data-on-pause=""
+                data-on-ready=""
+                data-on-complete="close()"
+                data-on-volume="">
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id=golive-intro-modal.html>
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="close()">x</button>
+        <h3 class="modal-title">GoLive!</h3>
+    </div>
+    <div class="modal-body">
+        <div>
+            <div
+                ec-video="leveltest-intro"
+                data-video-auto-play="true"
+                data-video-file="https://cdna.englishcentral.com/promo/demo/golive/golive-en-20151211.mp4"
+                data-video-width="420"
+                data-video-height="264"
+                data-no-overlay="true"
+                data-on-play=""
+                data-on-pause=""
+                data-on-ready=""
+                data-on-complete="close()"
+                data-on-volume="">
+            </div>
+        </div>
+    </div>
+</script>
+<script id="template/modal/backdrop.html" type="text/ng-template">
+    <div class="modal-backdrop"
+         modal-animation-class="fade"
+         ng-class="{in: animate}"
+         ng-style="{'z-index': 1040 + (index && 1 || 0) + index*10}"
+         ec-bgiframe=""></div>
+</script>
+<script id="template/popover/popover-template.html" type="text/ng-template">
+    <div class="popover"
+         ec-bgiframe=""
+         tooltip-classes
+         ng-class="{ in: isOpen() }">
+        <div class="arrow"></div>
+
+        <div class="popover-inner">
+            <h3 class="popover-title" ng-bind="title" ng-if="title"></h3>
+            <div class="popover-content"
+                 tooltip-template-transclude="contentExp()"
+                 tooltip-template-transclude-scope="originScope()"></div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id=go-live-splash.html>
+
+    
+    <div class="gl-splash-container">
+        <button title="Close GoLive splash screen" ng-click="closeGLSplash()" class="gl-splash-close">x</button>
+        <div class="gl-splash-header">
+            <div class="gl-splash-title"><div class='gl-splash-premium'></div>                Introducing GoLive! online tutoring</div>
+        </div>
+        <div class="gl-splash-body">
+            <div class="gl-splash-bodytext"><span class="gl-splash-glyellow">GoLive!</span> is the most effective way to improve your spoken English quickly. It starts with a <span class="gl-splash-yellow">FREE 1:1 online lesson</span> where you check your English level and get a customized study plan</div>
+            <div class="gl-splash-bodyimage"></div>
+            <div class="gl-splash-btn_container gl-splash-btn_basic">
+                <a ng-click="tryGoLive()" class="gl-splash-button btn-ec btn ng-scope">
+                    <i class="fa fa-calendar"></i>&nbsp;&nbsp;&nbsp;
+                    <span>Try GoLive! Now</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</script>
+<script type="text/ng-template" id=generic-video-modal.html>
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="close(video.onCloseEvent)">x</button>
+        <h3 class="modal-title" ng-bind="video.title" ></h3>
+    </div>
+    <div class="modal-body">
+        <div class="content" style="display:table-cell; vertical-align:middle; text-align:center;">
+            <div
+                ec-video="generic-video"
+                data-video-auto-play="true"
+                data-video-file="{{ video.file }}"
+                data-video-width="{{ video.width }}"
+                data-video-height="{{ video.height }}"
+                data-no-overlay="true"
+                data-on-play=""
+                data-on-pause=""
+                data-on-ready=""
+                data-on-complete="close(video.onCompleteEvent)"
+                data-on-volume="">
+            </div>
+        </div>
+    </div>
+</script> <div id=wrap class=clearfix>
+<div class=border>
+<div id=teacher class=academic-header style="background: url(https://cdns.englishcentral.com/images/academic-site/banner.jpg) no-repeat #03689C"></div>
+</div>
+<div class=container>
+<div class=row-fluid>
+<div id=academic-container class="row ec-container content academic">
+<div id=leftNavigation class="left-nav-wrap left-navigation">
+<div id=academic-navigation class=library-navigation><h1>Topics</h1><h2 class=nav-topic id=overview><a class=ajax href="/academic/index#!/index">Overview</a></h2><h3 class=nav-topic id=solving-problems><a class=ajax href="/academic/index#!/solving-problems">Solving Problems</a></h3><ul><li id=getting-your-students-to-speak><a class=ajax href="/academic/index#!/solving-problems/getting-your-students-to-speak">Getting Your Students to Speak</a></li><li id=building-vocabulary><a class=ajax href="/academic/index#!/solving-problems/building-vocabulary">Building Vocabulary</a></li><li id=blended-learning><a class=ajax href="/academic/index#!/solving-problems/blended-learning">Blended Learning</a></li><li id=using-englishcentral-with-a-textbook><a class=ajax href="/academic/index#!/solving-problems/using-englishcentral-with-a-textbook">Using EnglishCentral with a Textbook</a></li></ul><h3 class=nav-topic id=the-englishcentral-solution><a class=ajax href="/academic/index#!/the-englishcentral-solution/how-it-works">The EnglishCentral Solution</a></h3><ul><li id=how-it-works><a class=ajax href="/academic/index#!/the-englishcentral-solution/how-it-works">How it Works</a></li><li id=content><a class=ajax href="/academic/index#!/the-englishcentral-solution/content">Content</li><li id=setting-up-your-class><a class=ajax href="/academic/index#!/the-englishcentral-solution/setting-up-your-class">Setting up your Class</a></li><li id=custom-courses><a class=ajax href="/academic/index#!/the-englishcentral-solution/custom-courses">Custom Courses</a></li></ul><h2 class=nav-topic id=teacher-resources><a class=ajax href="/academic/index#!/teacher-resources">Teacher Resources</a></h2><h2 class=nav-topic id=webinar><a class=ajax href="/academic/index#!/webinar">Webinar</a></h2><h2 class=nav-topic id=news><a class=ajax href="/academic/index#!/news">News</a></h2><h2 class=nav-topic id=academic-pricing><a class=ajax href="/academic/index#!/academic-pricing">Academic Pricing</a></h2></div> </div>
+<div id=teacher-content class="content-wrap compact"></div>
+<div id=reg-form-wrapper>
+<div class=form-wrap>
+<div ng-controller=RegistrationController class="ng-cloak registration-teacher">
+<div class="text-center reg-loading" ng-show="isLoading()">
+<span class="fa fa-spinner fa-pulse fa-5x"></span>
+<h4>Registering...</h4>
+</div>
+<iframe frameborder=0 marginheight=0 marginwidth=0 src="https://www.englishcentral.com/auth/registerv3" type="text/html" id=iframe-registration class=hidden ec-iframe-ns=IframeRegistration ec-iframe-onload="onIframeLoad()"></iframe>
+<div id=register-form-container class=register-form-container>
+<div class=register-bg></div>
+<form ng-show="!isRegisterSocial() && !isLoading()" method=post action="" autofill=off autocomplete=off name=registrationForm id=register-form-email class="form-horizontal register-form" novalidate angular-validator="" angular-validator-submit="registerTeacher()">
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<h4 class="text-center reg-header">
+<strong>Try it free!</strong>
+</h4>
+</div>
+</div>
+<div class="alert bg-danger has-error" ng-show="hasError()">
+<span ng-show=emailError>
+An error occurred while processing your request. </span>
+<span ng-show=fbError>
+Your facebook account is not yet registered. </span>
+<span ng-show=googleError>
+Unable to register your Google account. </span>
+<span ng-show="isEmailTaken()">
+This email address is already taken. </span>
+</div>
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<select title="Select your native language" ng-model=registerForm.language id=language-email name=language class=form-control tabindex=1 ng-change="trackEvent('LevelTest.Step1.NativeLanguage',registerForm.language)" required-message="'Please select your native language'" required="">
+<option ng-selected="registerForm.language == ''" ng-if="registerForm.language==''">Native Language</option>
+<option ng-repeat="(key, value) in config.langList" value="{{key}}">{{ value }}</option>
+<option value="" selected hidden />
+<optgroup label=-------->
+<option ng-repeat="(key, value) in config.langListGroup" value="{{key}}" ng-selected="lang==key">{{ value }}</option>
+</optgroup>
+</select>
+</div>
+</div>
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<input tabindex=2 type=text title=Name placeholder=Name id=reg_username name=reg_username class=form-control ec-track-event=RegistrationEvents.INPUT_NAME ng-model=registerForm.username validator="nameValidator(registerForm.username) === true" invalid-message="nameValidator(registerForm.username)" required-message="'Please enter your name'" validate-on=blur value="" required="" autocomplete=off>
+</div>
+</div>
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<input tabindex=3 type=email title=Email placeholder=Email id=reg_email name=reg_email class=form-control ec-track-event=RegistrationEvents.INPUT_EMAIL ng-model=registerForm.email validator="emailValidator(registerForm.email) === true" invalid-message="'Your email is not a valid format.'" required-message="'Please enter your email'" validate-on=blur value="" required="" ng-click="hideEmailTaken()" autocomplete=off>
+</div>
+</div>
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<input autocomplete=off tabindex=4 type=password title=Password placeholder=Password id=reg_password name=reg_password class=form-control ec-track-event=RegistrationEvents.INPUT_PASSWORD ng-model=registerForm.password validator="passwordValidator(registerForm.password) === true" invalid-message="'Enter a password of 5-15 characters.'" required-message="'Enter a password of 5-15 characters.'" validate-on=blur value="" required="">
+</div>
+</div>
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<input tabindex=5 type=text title="School or Organization" placeholder="School or Organization" id=reg_organization name=reg_organization class=form-control ec-track-event=RegistrationEvents.INPUT_NAME ng-model=registerForm.organization required-message="'Please enter organization'" validate-on=blur value="" required="" autocomplete=off>
+</div>
+</div>
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<input tabindex=6 type=text title=Phone placeholder=Phone id=reg_phone name=reg_phone class=form-control ec-track-event=RegistrationEvents.INPUT_NAME ng-model=registerForm.phone required-message="'Please enter phone'" validate-on=blur value="" required="" autocomplete=off>
+</div>
+</div>
+<div class="form-group register-action" ng-show="!isRegisterOptions()">
+<div class="col-sm-12 input-container">
+<button class="btn btn-ec btn-lg" type=submit ng-show="isEmailMode()">Register</button>
+<button class="btn btn-ec btn-lg" type=submit ng-show="isFacebookMode()" ng-click="register()">Register</button>
+<button class="btn btn-ec btn-lg" type=submit ng-show="isGoogleMode()" ng-click="register()">Register</button>
+</div>
+</div>
+<div class=form-group>
+<div class="checkbox terms col-sm-12 input-container">
+<label>
+<input type=checkbox title="Agree to the Terms of Use and Privacy Policy to proceed." name=terms ng-model=registerForm.terms ng-click="trackTerms()" required-message="'You must accept the terms and conditions to use this site.'" insert-message-after=terms-description required="">
+<span id=terms-description>
+I agree to the <a href="javascript:void(0);" class=ec-link ga-tracker-directive="" ga-ui-event=click ga-category=Registration.Step1.TermsOfService ga-action=TermsOfService ng-click="openTermsModal()">Terms of Use</a> and <a class=ec-link href="/privacy" target=_blank ga-tracker-directive="" ga-ui-event=click ga-category=Registration.Step1.PrivacyPolicy ga-action=PrivacyPolicy>Privacy Policy</a>. </span>
+</label>
+</div>
+</div>
+<div class=form-group>
+<div class="authenticate-options col-sm-12 input-container">
+<ul class=list-unstyled>
+<li>
+<a class=authenticate-facebook ng-click="setRegisterOptions(true);setFacebookMode()">&laquo;
+<span class="fa fa-facebook-official"></span>
+Use Facebook </a>
+</li>
+<li>
+<a class=authenticate-google ng-click="setRegisterOptions(true);setGoogleMode()">
+&laquo;
+<script data-pagespeed-no-defer>//<![CDATA[
+(function(){var g=this;function h(b,d){var a=b.split("."),c=g;a[0]in c||!c.execScript||c.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};function l(b){var d=b.length;if(0<d){for(var a=Array(d),c=0;c<d;c++)a[c]=b[c];return a}return[]};function m(b){var d=window;if(d.addEventListener)d.addEventListener("load",b,!1);else if(d.attachEvent)d.attachEvent("onload",b);else{var a=d.onload;d.onload=function(){b.call(this);a&&a.call(this)}}};var n;function p(b,d,a,c,e){this.h=b;this.j=d;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=c;this.b={};this.a=[];this.c={}}function q(b,d){var a,c,e=d.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=d.offsetWidth&&0>=d.offsetHeight)a=!1;else{c=d.getBoundingClientRect();var f=document.body;a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+c;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&c<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}p.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&q(this,b)};h("pagespeed.CriticalImages.checkImageForCriticality",function(b){n.checkImageForCriticality(b)});h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});function r(b){b.b={};for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)a=a.concat(l(document.getElementsByTagName(d[c])));if(0!=a.length&&a[0].getBoundingClientRect){for(c=0;d=a[c];++c)q(b,d);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(t())),131072>=a.length+e.length&&(a+=e),d=!0);u=a;if(d){c=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(v){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function t(){var b={},d=document.getElementsByTagName("IMG");if(0==d.length)return{};var a=d[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var c=0;a=d[c];++c){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var u="";h("pagespeed.CriticalImages.getBeaconData",function(){return u});h("pagespeed.CriticalImages.Run",function(b,d,a,c,e,f){var k=new p(b,d,a,e,f);n=k;c&&m(function(){window.setTimeout(function(){r(k)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://www.englishcentral.com/academic?setLanguage=en','KfDky-otsR',true,false,'KXc7D7fR8yA');
+//]]></script><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAWCAYAAADNX8xBAAAETUlEQVQ4y82U3U/VdQDGP9/v73feOIAcj7wKIgEBKmrQFM10KFmJpVm5WWuZLzVybc6r3mZrrbzzxjbrxla25uxtc3GhVmA2hUmbq9AQG4x34cDhcA7n/N6/XaQX3XvR8wd89lw8z0copbgfkdyniHt9nJZNpEuWoM0kkNJutr30bttIN3mKMhS65tencUWvDIn2QEj7XM0qI+unK+C4/wWpxzaTXLy4zB4bOOk46VblekhNRwgBgOe6IARCCIRPH/Wb1ge5g9OnhSL9L0hq4CmsTU2N8Wiwg5lYjtQC4Hl4qSRk5vE0HZkXRQrA58eenUGTkL90ZYV01SCTw4ir61uI5OcUFs4PD5uO49N8AbxUCiUlviVLu7Tqum6fbWbs33+rMjNGqzs8GNKraln02qHNYueeDoA/KlejR3c2ojp6vzfjyqfnB7BjswjHmcjb0rLX39x6XjxSCn3D8PM5aFxVbC6r+TDwxDPfUlXdcWNDC5dffJUzm55HKHVko33is0vTpyvxxi38TYWJ7LaDtcGp2xPk53GhcwV9NUWUmr9SIiW1q+qYzCnjXFyju7QAXzEYXaB7fZ0HtKY40YobxI/lkdX01sHgyi0T1vUQbW9WcupaHQ+dhtX7qrHHoDjpEkdjNgoFJiwcg9uAcDoL+1X6TpXMB2UFx2VoXYnwpTj55wu8fvIwLDZpWcexRQupSZlSZYSOz3MI4KEAiRKmJ0d0ZcdK8Ou4ExKtzL4qqjogDLe+WgkDAzCUJLag9GVVGiw25y0ATCB1dzauB0E/6AgAhQoI5Jwr6AEKINytwbCFIIBrSsuIuliuQAEaENYE4u4vPI+MLgKFoyo5Vu0PuWBpTQP+NeSaLrnbGiFYg5qHigqjM8/x6tNZmooIEBrpftNZ4TlElFL4dTmnazkbukmcrR6yFvDKVGNxeNWBXWvzCr67vacf/fAVHG09Oy4H9674BVIFMCjhomFgZ5jwobAyECoR/cKNX9j09cXnOo/aWxn3snnQi8V9earOiup3jJhirrKBx0cbWDIZZjraw4+j25keq32/QU8dtaXGeNzj2Q3Bd/TBQP2lE8H9XbemrjU9WlDCXEZGUhnresiM7M0OLjxv9XzJN1nHKVm+lrR5M1QUy367wlr2rqXlMG8l0aQgElKfCtdUxDLzhU+f2z/ytzWoV+aW49kuCoUIBroMN9nlCsPICUTKXcNtxo0XBef2oI8cZGLOY8fGxBsV0czHolW1kkOYwukHHu79Yaaj17mZXZydj6YESrlowo9Aw3YNhNRBz5CQfzE79CSHyj/65L1d4TZQyHbaOcNZZNToOdV8fPma4vr2hJFg0pxlzslgKQtX2NjCZcqMMZyIk5VZltrWYB7Z91SyDQQg0e8Zbt4wWRAJD71UvnV7jyxuHvHN7Y7Nx5sSVqrMciw9JxCerc4r76svrLtYlAx+4WXpk7GUpCxyz5D/N2f/A2S39jE62ZhVAAAAAElFTkSuQmCC" data-pagespeed-url-hash=2771250733 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+Use Google </a>
+</li>
+</ul>
+</div>
+</div>
+</form> <form ng-show="isRegisterSocial() && !isLoading()" method=post action="" autofill=off autocomplete=off name=registrationSocialForm id=register-form-social class="form-horizontal register-form" novalidate="" angular-validator="" angular-validator-submit="registerTeacher()">
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<h4 class="text-center reg-header">
+<strong>Try it free!</strong>
+</h4>
+</div>
+</div>
+<div class="alert bg-danger has-error" ng-show="hasError()">
+<span ng-show=emailError>
+An error occurred while processing your request. </span>
+<span ng-show=fbError>
+Your facebook account is not yet registered. </span>
+<span ng-show=googleError>
+Unable to register your Google account. </span>
+<span ng-show="isEmailTaken()">
+This email address is already taken. </span>
+</div>
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<select title="Select your native language" ng-model=registerForm.language id=language-social name=language class=form-control tabindex=1 ng-change="trackEvent('LevelTest.Step1.NativeLanguage',registerForm.language)" required-message="'Please select your native language'" required="">
+<option ng-selected="registerForm.language == ''" ng-if="registerForm.language==''">Native Language</option>
+<option ng-repeat="(key, value) in config.langList" value="{{key}}">{{ value }}</option>
+<option value="" selected hidden />
+<optgroup label=-------->
+<option ng-repeat="(key, value) in config.langListGroup" value="{{key}}" ng-selected="lang==key">{{ value }}</option>
+</optgroup>
+</select>
+</div>
+</div>
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<input tabindex=5 type=text title="School or Organization" placeholder="School or Organization" id=reg_organization name=reg_organization class=form-control ec-track-event=RegistrationEvents.INPUT_NAME ng-model=registerForm.organization required-message="'Please enter organization'" validate-on=blur value="" required="" autocomplete=off>
+</div>
+</div>
+<div class=form-group>
+<div class="col-sm-12 input-container">
+<input tabindex=6 type=text title=Phone placeholder=Phone id=reg_phone name=reg_phone class=form-control ec-track-event=RegistrationEvents.INPUT_NAME ng-model=registerForm.phone required-message="'Please enter phone'" validate-on=blur value="" required="" autocomplete=off>
+</div>
+</div>
+<div class="form-group register-action" ng-show="!isRegisterOptions()">
+<div class="col-sm-12 input-container">
+<button class="btn btn-ec btn-lg" type=submit ng-show="isEmailMode()">Register</button>
+<button class="btn btn-ec btn-lg" type=submit ng-show="isFacebookMode()" ng-click="register()">Register</button>
+<button class="btn btn-ec btn-lg" type=submit ng-show="isGoogleMode()" ng-click="register()">Register</button>
+</div>
+</div>
+<div class="form-group register-buttons" ng-show="isRegisterOptions()">
+<div class="col-sm-12 input-container">
+<p class=text-center>
+<button class="btn btn-lg btn-register-google" ng-click="submitGoogle()" type=submit>
+<div background-image="https://cdns.englishcentral.com/images/googleplus-small.png" background-size=contain class="pull-left google-logo"></div>
+Sign in with Google</button>
+<span class=option-break>- or -</span>
+</p>
+<p class=text-center>
+<button class="btn btn-lg btn-register-facebook" ng-click="submitFacebook()" type=submit>
+<span class="fa fa-facebook pull-left"></span>
+Facebook</button>
+<span class=option-break>- or -</span>
+</p>
+<p>
+<button class="btn btn-ec btn-lg btn-register-email" ng-click="setRegisterOptions(false);setEmailMode()" type=button>
+<span class="fa fa-envelope-o pull-left"></span>
+Email</button>
+</p>
+</div>
+</div>
+<div class=form-group>
+<div class="checkbox terms col-sm-12 input-container">
+<label>
+<input type=checkbox title="Agree to the Terms of Use and Privacy Policy to proceed." name=terms ng-model=registerForm.terms ng-click="trackTerms()" required-message="'You must accept the terms and conditions to use this site.'" insert-message-after=terms-description required="">
+<span id=terms-description>
+I agree to the <a href="javascript:void(0);" class=ec-link ga-tracker-directive="" ga-ui-event=click ga-category=Registration.Step1.TermsOfService ga-action=TermsOfService ng-click="openTermsModal()">Terms of Use</a> and <a class=ec-link href="/privacy" target=_blank ga-tracker-directive="" ga-ui-event=click ga-category=Registration.Step1.PrivacyPolicy ga-action=PrivacyPolicy>Privacy Policy</a>. </span>
+</label>
+</div>
+</div>
+<div class="form-group popupblock-message" ng-show="isFacebookMode() || isGoogleMode()">
+<div class="col-sm-12 input-container">
+<p class=text-center>
+Facebook and Google use pop-ups for logging in. Please enable pop-ups in your browser. </p>
+</div>
+</div>
+</form> </div>
+</div>
+<div id=teacher-promo class=promo>
+<span class=icon></span>
+<p>Register for Free and try out EnglishCentral with your students.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id=pricingContactForm style="display:none;">
+<div id=contact>
+<a onclick="$('#pricingContactForm').dialog('close');" class=ui-dialog-close-button></a>
+<form id=contactusForm enctype="application/x-www-form-urlencoded" action="/academic/index#!" method=post>
+<div class=contact-form>
+<h1>Contact Us</h1>
+<ul id=prepaid-inquire class=formfield>
+<li class=field>
+<div>
+<textarea name=message id=message class="register-form-textarea reg-form-fields" rows=24 cols=80>Message</textarea></div> <span class=required>*</span></li>
+</ul>
+<ul class=formfield>
+<li class=field>
+<div>
+<input type=text name=username id=username value=Name class="username register-form-text reg-form-fields" maxLength=100></div> <span class=required>*</span>
+</li>
+</ul>
+<ul class=formfield>
+<li class=field>
+<div>
+<input type=text name=email id=email value=Email maxLength=100 class="validator register-form-text reg-form-fields"></div> <span class=required>*</span>
+</li>
+</ul>
+<ul class=formfield>
+<li class=field>
+<div>
+<select name=country id=country class="register-form-text reg-form-fields contactus-fields">
+<option value=0>Country</option>
+<optgroup id=country-optgroup- label="">
+<option value=CN>China</option>
+<option value=ES>Spain</option>
+<option value=PT>Portugal</option>
+<option value=TR>Turkey</option>
+<option value=US>United States</option>
+<option value=VN>Vietnam</option>
+</optgroup>
+<optgroup id=country-optgroup--------- label=-------->
+<option value=AF>Afghanistan</option>
+<option value=AL>Albania</option>
+<option value=DZ>Algeria</option>
+<option value=AS>American Samoa</option>
+<option value=AD>Andorra</option>
+<option value=AO>Angola</option>
+<option value=AI>Anguilla</option>
+<option value=AQ>Antarctica</option>
+<option value=AG>Antigua and Barbuda</option>
+<option value=AR>Argentina</option>
+<option value=AM>Armenia</option>
+<option value=AW>Aruba</option>
+<option value=AC>Ascension Island</option>
+<option value=AU>Australia</option>
+<option value=AT>Austria</option>
+<option value=AZ>Azerbaijan</option>
+<option value=BS>Bahamas</option>
+<option value=BH>Bahrain</option>
+<option value=BD>Bangladesh</option>
+<option value=BB>Barbados</option>
+<option value=BY>Belarus</option>
+<option value=BE>Belgium</option>
+<option value=BZ>Belize</option>
+<option value=BJ>Benin</option>
+<option value=BM>Bermuda</option>
+<option value=BT>Bhutan</option>
+<option value=BO>Bolivia</option>
+<option value=BA>Bosnia and Herzegovina</option>
+<option value=BW>Botswana</option>
+<option value=BV>Bouvet Island</option>
+<option value=BR>Brazil</option>
+<option value=IO>British Indian Ocean Territory</option>
+<option value=VG>British Virgin Islands</option>
+<option value=BN>Brunei</option>
+<option value=BG>Bulgaria</option>
+<option value=BF>Burkina Faso</option>
+<option value=BI>Burundi</option>
+<option value=KH>Cambodia</option>
+<option value=CM>Cameroon</option>
+<option value=CA>Canada</option>
+<option value=IC>Canary Islands</option>
+<option value=CV>Cape Verde</option>
+<option value=BQ>Caribbean Netherlands</option>
+<option value=KY>Cayman Islands</option>
+<option value=CF>Central African Republic</option>
+<option value=EA>Ceuta and Melilla</option>
+<option value=TD>Chad</option>
+<option value=CL>Chile</option>
+<option value=CN>China</option>
+<option value=CX>Christmas Island</option>
+<option value=CP>Clipperton Island</option>
+<option value=CC>Cocos (Keeling) Islands</option>
+<option value=CO>Colombia</option>
+<option value=KM>Comoros</option>
+<option value=CG>Congo - Brazzaville</option>
+<option value=CD>Congo - Kinshasa</option>
+<option value=CK>Cook Islands</option>
+<option value=CR>Costa Rica</option>
+<option value=HR>Croatia</option>
+<option value=CU>Cuba</option>
+<option value=CW>Curaçao</option>
+<option value=CY>Cyprus</option>
+<option value=CZ>Czech Republic</option>
+<option value=CI>Côte d’Ivoire</option>
+<option value=DK>Denmark</option>
+<option value=DG>Diego Garcia</option>
+<option value=DJ>Djibouti</option>
+<option value=DM>Dominica</option>
+<option value=DO>Dominican Republic</option>
+<option value=EC>Ecuador</option>
+<option value=EG>Egypt</option>
+<option value=SV>El Salvador</option>
+<option value=GQ>Equatorial Guinea</option>
+<option value=ER>Eritrea</option>
+<option value=EE>Estonia</option>
+<option value=ET>Ethiopia</option>
+<option value=FK>Falkland Islands</option>
+<option value=FO>Faroe Islands</option>
+<option value=FJ>Fiji</option>
+<option value=FI>Finland</option>
+<option value=FR>France</option>
+<option value=GF>French Guiana</option>
+<option value=PF>French Polynesia</option>
+<option value=TF>French Southern Territories</option>
+<option value=GA>Gabon</option>
+<option value=GM>Gambia</option>
+<option value=GE>Georgia</option>
+<option value=DE>Germany</option>
+<option value=GH>Ghana</option>
+<option value=GI>Gibraltar</option>
+<option value=GR>Greece</option>
+<option value=GL>Greenland</option>
+<option value=GD>Grenada</option>
+<option value=GP>Guadeloupe</option>
+<option value=GU>Guam</option>
+<option value=GT>Guatemala</option>
+<option value=GG>Guernsey</option>
+<option value=GN>Guinea</option>
+<option value=GW>Guinea-Bissau</option>
+<option value=GY>Guyana</option>
+<option value=HT>Haiti</option>
+<option value=HM>Heard &amp; McDonald Islands</option>
+<option value=HN>Honduras</option>
+<option value=HK>Hong Kong SAR China</option>
+<option value=HU>Hungary</option>
+<option value=IS>Iceland</option>
+<option value=IN>India</option>
+<option value=ID>Indonesia</option>
+<option value=IR>Iran</option>
+<option value=IQ>Iraq</option>
+<option value=IE>Ireland</option>
+<option value=IM>Isle of Man</option>
+<option value=IL selected=selected>Israel</option>
+<option value=IT>Italy</option>
+<option value=JM>Jamaica</option>
+<option value=JP>Japan</option>
+<option value=JE>Jersey</option>
+<option value=JO>Jordan</option>
+<option value=KZ>Kazakhstan</option>
+<option value=KE>Kenya</option>
+<option value=KI>Kiribati</option>
+<option value=XK>Kosovo</option>
+<option value=KW>Kuwait</option>
+<option value=KG>Kyrgyzstan</option>
+<option value=LA>Laos</option>
+<option value=LV>Latvia</option>
+<option value=LB>Lebanon</option>
+<option value=LS>Lesotho</option>
+<option value=LR>Liberia</option>
+<option value=LY>Libya</option>
+<option value=LI>Liechtenstein</option>
+<option value=LT>Lithuania</option>
+<option value=LU>Luxembourg</option>
+<option value=MO>Macau SAR China</option>
+<option value=MK>Macedonia</option>
+<option value=MG>Madagascar</option>
+<option value=MW>Malawi</option>
+<option value=MY>Malaysia</option>
+<option value=MV>Maldives</option>
+<option value=ML>Mali</option>
+<option value=MT>Malta</option>
+<option value=MH>Marshall Islands</option>
+<option value=MQ>Martinique</option>
+<option value=MR>Mauritania</option>
+<option value=MU>Mauritius</option>
+<option value=YT>Mayotte</option>
+<option value=MX>Mexico</option>
+<option value=FM>Micronesia</option>
+<option value=MD>Moldova</option>
+<option value=MC>Monaco</option>
+<option value=MN>Mongolia</option>
+<option value=ME>Montenegro</option>
+<option value=MS>Montserrat</option>
+<option value=MA>Morocco</option>
+<option value=MZ>Mozambique</option>
+<option value=MM>Myanmar (Burma)</option>
+<option value=NA>Namibia</option>
+<option value=NR>Nauru</option>
+<option value=NP>Nepal</option>
+<option value=NL>Netherlands</option>
+<option value=AN>Netherlands Antilles</option>
+<option value=NC>New Caledonia</option>
+<option value=NZ>New Zealand</option>
+<option value=NI>Nicaragua</option>
+<option value=NE>Niger</option>
+<option value=NG>Nigeria</option>
+<option value=NU>Niue</option>
+<option value=NF>Norfolk Island</option>
+<option value=KP>North Korea</option>
+<option value=MP>Northern Mariana Islands</option>
+<option value=NO>Norway</option>
+<option value=OM>Oman</option>
+<option value=PK>Pakistan</option>
+<option value=PW>Palau</option>
+<option value=PS>Palestinian Territories</option>
+<option value=PA>Panama</option>
+<option value=PG>Papua New Guinea</option>
+<option value=PY>Paraguay</option>
+<option value=PE>Peru</option>
+<option value=PH>Philippines</option>
+<option value=PN>Pitcairn Islands</option>
+<option value=PL>Poland</option>
+<option value=PT>Portugal</option>
+<option value=PR>Puerto Rico</option>
+<option value=QA>Qatar</option>
+<option value=RO>Romania</option>
+<option value=RU>Russia</option>
+<option value=RW>Rwanda</option>
+<option value=RE>Réunion</option>
+<option value=BL>Saint Barthélemy</option>
+<option value=SH>Saint Helena</option>
+<option value=KN>Saint Kitts and Nevis</option>
+<option value=LC>Saint Lucia</option>
+<option value=MF>Saint Martin</option>
+<option value=PM>Saint Pierre and Miquelon</option>
+<option value=WS>Samoa</option>
+<option value=SM>San Marino</option>
+<option value=SA>Saudi Arabia</option>
+<option value=SN>Senegal</option>
+<option value=RS>Serbia</option>
+<option value=SC>Seychelles</option>
+<option value=SL>Sierra Leone</option>
+<option value=SG>Singapore</option>
+<option value=SX>Sint Maarten</option>
+<option value=SK>Slovakia</option>
+<option value=SI>Slovenia</option>
+<option value=SB>Solomon Islands</option>
+<option value=SO>Somalia</option>
+<option value=ZA>South Africa</option>
+<option value=GS>South Georgia &amp; South Sandwich Islands</option>
+<option value=KR>South Korea</option>
+<option value=SS>South Sudan</option>
+<option value=ES>Spain</option>
+<option value=LK>Sri Lanka</option>
+<option value=VC>St. Vincent &amp; Grenadines</option>
+<option value=SD>Sudan</option>
+<option value=SR>Suriname</option>
+<option value=SJ>Svalbard and Jan Mayen</option>
+<option value=SZ>Swaziland</option>
+<option value=SE>Sweden</option>
+<option value=CH>Switzerland</option>
+<option value=SY>Syria</option>
+<option value=ST>São Tomé and Príncipe</option>
+<option value=TW>Taiwan</option>
+<option value=TJ>Tajikistan</option>
+<option value=TZ>Tanzania</option>
+<option value=TH>Thailand</option>
+<option value=TL>Timor-Leste</option>
+<option value=TG>Togo</option>
+<option value=TK>Tokelau</option>
+<option value=TO>Tonga</option>
+<option value=TT>Trinidad and Tobago</option>
+<option value=TA>Tristan da Cunha</option>
+<option value=TN>Tunisia</option>
+<option value=TR>Turkey</option>
+<option value=TM>Turkmenistan</option>
+<option value=TC>Turks and Caicos Islands</option>
+<option value=TV>Tuvalu</option>
+<option value=UM>U.S. Outlying Islands</option>
+<option value=VI>U.S. Virgin Islands</option>
+<option value=UG>Uganda</option>
+<option value=UA>Ukraine</option>
+<option value=AE>United Arab Emirates</option>
+<option value=GB>United Kingdom</option>
+<option value=US>United States</option>
+<option value=UY>Uruguay</option>
+<option value=UZ>Uzbekistan</option>
+<option value=VU>Vanuatu</option>
+<option value=VA>Vatican City</option>
+<option value=VE>Venezuela</option>
+<option value=VN>Vietnam</option>
+<option value=WF>Wallis and Futuna</option>
+<option value=EH>Western Sahara</option>
+<option value=YE>Yemen</option>
+<option value=ZM>Zambia</option>
+<option value=ZW>Zimbabwe</option>
+<option value=AX>Åland Islands</option>
+<option value=ZZ>Other</option>
+</optgroup>
+</select></div> </li>
+</ul>
+<ul class=formfield>
+<li class=field>
+<div>
+<input type=text name=phone id=phone value=Phone class="prepaid-medium register-form-text reg-form-fields contactus-fields" maxlength=15></div> <span class=required>*</span></li>
+</ul>
+<ul class=formfield>
+<li class=field>
+<div>
+<input type=text name=institution id=institution value="Organization or School" class="prepaid-long register-form-text reg-form-fields"></div> </li>
+</ul>
+<ul class=formfield>
+<li class=field>
+<div>
+<select name=numberOfStudents id=numberOfStudents class="register-form-text reg-form-fields contactus-fields">
+<option value=0>Number of Students</option>
+<option value=10>10</option>
+<option value=10-100>10-100</option>
+<option value=100-500>100-500</option>
+<option value="500+">500+</option>
+</select></div> </li>
+</ul>
+<ul class=formfield style="border:none;">
+<li>
+<span>* </span>Required fields </li>
+<li style="position:absolute;z-index:-10">
+<input type=hidden value=send name=Submit />
+</li>
+</ul>
+<ul class=formfield style="border:none;">
+<li style="position:absolute;z-index:-10">
+<input type=hidden value="" name=academic_page id=academic_page />
+</li>
+</ul>
+<ul class=formfield style="border:none;">
+<li style="position:absolute;z-index:-10">
+<input type=hidden value="" name=contactus_type id=contactus_type />
+</li>
+</ul>
+<p class="registerBtn text">
+<button class="btn btn-ec" type=button onclick="$('#contactusForm').submit();">
+Send</button>
+</p>
+</div>
+</form>
+</div>
+</div>
+<div id=pricingContactMessage style="display: none;">
+<a onclick="$('#pricingContactMessage').dialog('close');" class=ui-dialog-close-button></a>
+<div class=success>
+<p>Dear <span id=username></span>,</p>
+<p>Thank you for contacting EnglishCentral. Our consultant will be in touch with you shortly. Please feel free to send us any additional feedback anytime.</p>
+<p>Sincerely,<br/>Alan Schwartz<br/>CEO</br>EnglishCentral</p>
+</div>
+</div>
+<div id=show-video-player style=display:none></div>
+<script>$(document).ready(function(){if(!window.closeFlashLightbox){window.closeFlashLightbox=EC.sys.closeFlashApp;}$.extend(true,EC,{"sys":{"lang":"en","identity":0,"ajax":{"tspeed":"200","errorurl":"\/error\/access","msg":{"lostsession":"&lt;span style='display:none'&gt;ERROR:LOST_SESSION&lt;\/span&gt;","logout":"&lt;span style='display:none'&gt;ERROR:SIMULTANEOUS&lt;\/span&gt;"}}}});EC.academic.init();EC.leftnav.mixmode=true;EC.leftnav.init({icons:false,activeTab:0,collapsible:1});EC.academic.defaultValues={username:'Name',email:'Email',phone:'Phone',institution:'Organization or School',message:'Message'}
+EC.academic.initForm();$('form#loginForm input#redirect').ready(function(){$('form#loginForm input#redirect').val('/teach');});var p=$("#show-video-player");var vcontent='<a onclick="$(\'#show-video-player\').dialog(\'close\');" class="ui-dialog-close-button"><span>Close </span></a><iframe width="640" height="390" src="https://www.youtube.com/embed/Ld2De4Ci-i4?autoplay=1&rel=0" frameborder="0" allowfullscreen></iframe>';var regButton='<a class="regnow-button"  href="/registration/index/learner?ref=promovideo" onclick="document.location.href=this.href;return false;">Register for Free!</a>';p.dialog({resizable:false,draggable:false,modal:true,closeOnEscape:false,autoOpen:false,width:660,height:'auto',position:'center',dialogClass:'no-title shadow-border-dialog player-dialog anonymous',open:function(event,ui){$(this).html(vcontent);$('#ui-dialog-title-show-video-player').html(regButton);var dc=$(this).dialog("widget");var w=$(window);$(this).dialog("option","position","top");return this;},close:function(event,ui){$(this).find('iframe').attr('src','');$(this).dialog("widget").css({position:"",top:""});return this;}});EC.academic.teacherOnboardUrl="/teach";$('#language-button').css('margin-left','10px');});</script>
+<div id=push></div>
+</div>
+<footer class="ng-cloak footer-columned" ng-controller="FooterNavigationController as footerNav">
+<div class=main-footer-links>
+<div class=container>
+<div class="col-md-3 company-info footer-items">
+<h5 class="page-header text-center">COMPANY INFORMATION</h5>
+<div class="list-group text-center">
+<a href="/static/corporate/section/about" class=list-group-item>About Us</a>
+<a href="/static/corporate/section/news" class=list-group-item>News</a>
+<a href="http://blog.englishcentral.com" target=_blank class=list-group-item>Blog</a>
+<a href="/help" class=list-group-item>FAQ</a>
+</div>
+</div>
+<div class="col-md-3 for-individuals footer-items">
+<h5 class="page-header text-center">FOR INDIVIDUALS</h5>
+<div class="list-group text-center">
+<a ng-show=footerNav.featureSet.isMobileLinkEnabled href="/mobile/launch" class=list-group-item>
+Mobile </a>
+<a ng-if="auth.hasIdentity && !auth.identity.isPlatinum" class=list-group-item ng-href="{{ footerNav.isLandingRoute() ? '#plans' : '/videos/#plans' }}" id=pricing ec-scroll-to=plans data-target=.nav-collapse>Subscription Plans </a>
+<a ng-if="!auth.hasIdentity" class=list-group-item ng-href="{{ footerNav.isCartRoute() ? '' : '/cart#plans' }}" id=pricing ec-scroll-to=plans data-target=.nav-collapse>Subscription Plans </a>
+<a ng-if="!auth.hasIdentity" class=list-group-item ec-scroll-to=browse-howitworks ng-href="{{ footerNav.isLandingRoute() ? '' : '/videos#!/index#browse-howitworks' }}" data-target=.nav-collapse>
+How it Works </a>
+<a href="/support" class=list-group-item>Contact Us</a>
+</div>
+</div>
+<div class="col-md-3 school-enterprises footer-items">
+<h5 class="page-header text-center">FOR SCHOOLS & ENTERPRISES</h5>
+<div class="list-group text-center">
+<a href="/academic/index#!" class=list-group-item>Teach with EnglishCentral</a>
+<a href="/students" class=list-group-item>Register as Student</a>
+<a href="/static/corporate/section/partners" class=list-group-item>Partner with EnglishCentral</a>
+<a href="/support" class=list-group-item>Contact Sales</a>
+</div>
+</div>
+<div class="col-md-3 fbsocial footer-items text-center">
+<h5 class="page-header text-center">Like us to get a free lesson daily!</h5>
+<div class=fb-page data-href="https://www.facebook.com/EnglishCentral" data-height=165 data-small-header=true data-adapt-container-width=true data-hide-cover=true data-show-facepile=true data-show-posts=true>
+<div class=fb-xfbml-parse-ignore></div>
+</div>
+</div>
+</div>
+</div>
+<div class="container subpagelinks">
+<div class=col-md-7>
+<p class=lower-footer>
+<small>
+<br>
+<a target=_blank href="/static/privacy">Privacy Policy</a>
+| <a target=_blank href="/terms">Terms of Use</a>
+| <a target=_blank href="/directory">Directory</a>
+|
+Copyright &copy; 2016 EnglishCentral, Inc. </small>
+</p>
+</div>
+<div class="pull-right back-to-top">
+<a ng-click="scrollTop()" ec-publisher=NavigationController.Browse class=scroll-top-navigation>
+Back to Top <span class="glyphicon glyphicon-chevron-up"></span>
+</a>
+</div>
+</div>
+</footer>
+<noscript><img height=1 width=1 style=display:none src="https://www.facebook.com/tr?id=737270556359072&ev=PageView&noscript=1" data-pagespeed-url-hash=3781291955 /></noscript><script type='text/javascript'>(function(){(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s);}(document,'script'));})()</script>
+<script type="text/javascript">//<![CDATA[
+var google_conversion_id=1028746149;var google_conversion_label="Aft2CLXR5QMQpdfF6gM";var google_custom_params=window.google_tag_params;var google_remarketing_only=true;
+//]]></script>
+<noscript>
+<div style="display:inline;">
+<img height=1 width=1 style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1028746149/?value=0&amp;label=Aft2CLXR5QMQpdfF6gM&amp;guid=ON&amp;script=0" data-pagespeed-url-hash=490730766 />
+</div>
+</noscript><script type='text/javascript'>//<![CDATA[
+var google_conversion_id=956009849;var google_custom_params='window.google_tag_params';var google_remarketing_only=true;
+//]]></script>
+<noscript>
+<div style='display:inline;'>
+<img height=1 width=1 style='border-style:none;' alt='' src='//googleads.g.doubleclick.net/pagead/viewthroughconversion/956009849/?value=0&guid=ON&script=0' data-pagespeed-url-hash=2810681809 />
+</div>
+</noscript>
+<script type='text/javascript'>window.APPNAME='EnglishCentralApp';var EC_CONFIG={"siteID":"PROD WEBSITE","siteVersion":"20161213212527","debug":false,"isBot":false,"basetime":1482102777000,"assetUrl":"https:\/\/cdns.englishcentral.com","contentAssetUrl":"https:\/\/cdna.englishcentral.com","isChina":false,"isMobileLaunchEnabled":true,"regwallLimit":"2","paywallLimit":"2","isRegWall":false,"jwplayer":"k1bQxvQ1VYbSdMm8B9RAbWzZXP7SWm7zug3GeIZsNGg=","zeroclipboardSwf":"https:\/\/cdns.englishcentral.com\/swf\/ZeroClipboard.swf","country":"IL","experiments":{"13":1,"19":1},"translations":{"validationMessages":{"email":{"pattern":"Your email is not a valid format.","email":"Your email is not a valid format.","required":"You can't leave this empty.","recordFound":"This email address is already taken.","invalid":"An error occurred while trying to process your request."},"confirmemail":{"notSame":"Your confirmation email does not match your email."},"name":{"required":"You can't leave this empty.","minlength":"Please use between 4 and 100 characters.","maxlength":"Please use between 4 and 100 characters.","pattern":"Please use letters and numbers only. ex: john doe."},"username":{"required":"You can't leave this empty.","minlength":"Please use between 4 and 100 characters.","maxlength":"Please use between 4 and 100 characters.","pattern":"Please use letters and numbers only. ex: john doe."},"password":{"required":"Enter a password of 5-15 characters.","minlength":"Enter a password of 5-15 characters.","maxlength":"Enter a password of 5-15 characters.","incorrect":"Your old password is incorrect.","match":"Your new and confirmation password do not match."},"travelAgencyCode":{"required":"Please enter your 4-digit code.","minlength":"Please enter your 4-digit code.","maxlength":"Please enter your 4-digit code.","pattern":"Please enter your 4-digit code."},"terms":{"required":"You must accept the terms and conditions to use this site."},"service":{"unknownError":"An unknown error has occurred. Please try again.","notAvailable":"Sorry, services are temporarily not available. Please try again later."},"sessionschedule":{"required":"Please select your preferred date and time for your session.","notAllowed":"Sorry, you can't reschedule your session 1 hour before the actual schedule.","tooManyMissed":"User has missed more than 3 sessions in the last 30 days","tooLateToResched":"Sorry, you can't schedule\/reschedule your session 15 minutes before the actual schedule.","cannotScheduleOnMaxDays":"Sorry, you cannot schedule\/reschedule your session more than 7 days from now.","tooManySessionChanges":"tooManySessionChanges","expiredSubscription":"Sorry, you cannot schedule\/reschedule a GoLive Session beyond your subscription expiration date.","recordFound":"The requested time is no longer available. Please select a different time.","cannotScheduleNew":"The requested time is the same with your current schedule. Please select a different time.","cannotScheduleNewConflictSkypeAndPhone":"This Skype Name is already scheduled for this timeslot. Please reschedule on a different timeslot.","cannotScheduleNewConflictPhone":"This Phone number is already scheduled for this timeslot. Please reschedule on a different timeslot.","cannotScheduleNewConflictSkype":"This Skype Name is already scheduled for this timeslot. Please reschedule on a different timeslot.","cannotScheduleNewConflictSchedule":"Your timeslot is no longer available. Please select another time.","latestLtStateBlockedFromScheduling":"Sorry, we cannot schedule a new session at this moment. Please wait while your previous request is being processed.","scheduleNotNew":"Sorry, we cannot schedule a new session at this moment. Please wait while your previous request is being processed."},"skype":{"pattern":"The Skype Name you entered is invalid.","required":"You can't leave this empty.","minlength":"Your Skype Name needs to be 6-32 characters long.","maxlength":"Your Skype Name needs to be 6-32 characters long.","recordFound":"The Skype Name you entered is already used on a session by a different account.","invalid":"Skype Name is invalid. Please enter a valid Skype Name."},"phone":{"required":"Please enter your phone number.","pattern":"Phone number is invalid. Please enter a valid phone number.","recordFound":"The phone number you entered is already used on a session by a different account.","phone":"Phone number is invalid. Please enter a valid phone number."},"message":{"required":"You can't leave this empty."},"captcha":{"required":"Please prove that you are a human"}},"tutor":{"countries":{"86":"China","81":"Japan","82":"Korea","90":"Turkey"},"countriesEn":{"86":"China","81":"Japan","82":"Korea","90":"Turkey"},"timezones":{"-12":"(GMT -12:00) Eniwetok, Kwajalein","-11":"(GMT -11:00) Midway Island, Samoa","-10":"(GMT -10:00) Hawaii","-9":"(GMT -9:00) Alaska","-8":"(GMT -8:00) Pacific Time (US & Canada)","-7":"(GMT -7:00) Mountain Time (US & Canada)","-6":"(GMT -6:00) Central Time (US & Canada), Mexico City","-5":"(GMT -5:00) Eastern Time (US & Canada), Bogota, Lima","-4":"(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz","-3.5":"(GMT -3:30) Newfoundland","-3":"(GMT -3:00) Brazil, Buenos Aires, Georgetown","-2":"(GMT -2:00) Mid-Atlantic","-1":"(GMT -1:00) Azores, Cape Verde Islands","0":"(GMT +0:00) Western Europe Time, London, Lisbon, Casablanca","1":"(GMT +1:00) Brussels, Copenhagen, Madrid, Paris","2":"(GMT +2:00) Kaliningrad, South Africa","3":"(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg","3.5":"(GMT +3:30) Tehran","4":"(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi","4.5":"(GMT +4:30) Kabul","5":"(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent","5.5":"(GMT +5:30) Bombay, Calcutta, Madras, New Delhi","5.75":"(GMT +5:45) Kathmandu","6":"(GMT +6:00) Almaty, Dhaka, Colombo","7":"(GMT +7:00) Bangkok, Hanoi, Jakarta","8":"(GMT +8:00) Beijing, Perth, Singapore, Hong Kong","9":"(GMT +9:00) Seoul, Tokyo, Osaka, Sapporo, Yakutsk","9.5":"(GMT +9:30) Adelaide, Darwin","10":"(GMT +10:00) Eastern Australia, Guam, Vladivostok","11":"(GMT +11:00) Magadan, Solomon Islands, New Caledonia","12":"(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka"},"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"months":{"1":"January","2":"February","3":"March","4":"April","5":"May","6":"June","7":"July","8":"August","9":"September","10":"October","11":"November","12":"December"},"errors":{"email":{"pattern":"Your email is not a valid format.","email":"Your email is not a valid format.","required":"You can't leave this empty.","recordFound":"This email address is already taken.","invalid":"An error occurred while trying to process your request."},"confirmemail":
